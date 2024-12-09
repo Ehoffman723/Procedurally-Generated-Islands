@@ -5,6 +5,7 @@ extends Node2D
 
 func _ready():
 	spawn_treasure()
+	
 
 func spawn_treasure():
 	var map_size = tile_map.get_used_rect()
@@ -29,3 +30,7 @@ func spawn_treasure():
 			treasure_chest.position = tile_map.map_to_local(Vector2(random_x, random_y))
 			add_child(treasure_chest)
 			found_valid_tile = true
+
+
+func _on_timer_timeout() -> void:
+	$ColorRect.visible = false

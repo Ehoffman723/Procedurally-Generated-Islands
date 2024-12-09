@@ -4,17 +4,18 @@
 [ext_resource type="Script" path="res://player/player.gd" id="1_hx548"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hyesq"]
-size = Vector2(119, 120)
+size = Vector2(48, 48)
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_hx548")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_5v4dv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, 0)
 shape = SubResource("RectangleShape2D_hyesq")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.3, 0.3)
+zoom = Vector2(0.8, 0.8)
