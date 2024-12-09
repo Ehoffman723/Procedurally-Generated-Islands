@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhsj5emlcthg"
-path="res://.godot/imported/Destructible Objects Sprite Sheet.png-ce72af126197209fad63823d5bf28e48.ctex"
+uid="uid://dpvb2y2lou2q3"
+path="res://.godot/imported/Treasure Chest closed 16x16.png-ae2e72cef8617754d2e7ba7b13e6a455.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://artwork/Destructible Objects Sprite Sheet.png"
-dest_files=["res://.godot/imported/Destructible Objects Sprite Sheet.png-ce72af126197209fad63823d5bf28e48.ctex"]
+source_file="res://artwork/Treasure Chest closed 16x16.png"
+dest_files=["res://.godot/imported/Treasure Chest closed 16x16.png-ae2e72cef8617754d2e7ba7b13e6a455.ctex"]
 
 [params]
 
